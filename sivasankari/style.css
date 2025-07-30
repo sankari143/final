@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: darkgreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+nav a img {
+  vertical-align: middle;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  min-height: 70vh;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
